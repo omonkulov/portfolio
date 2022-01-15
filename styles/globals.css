@@ -1,16 +1,35 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** Hero animation**/
+
+#floatingObj {
+  animation: MoveUpDown 3s ease-in-out infinite;
+  transform-origin: center;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
 }
 
-* {
-  box-sizing: border-box;
+#holdingObj {
+  animation: RotateHolding 2s ease-in-out infinite;
+  transform-origin: 80% 80%;
+}
+
+@keyframes RotateHolding {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
 }
