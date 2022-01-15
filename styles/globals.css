@@ -33,3 +33,44 @@
     transform: rotate(2deg);
   }
 }
+
+.spinningAnim {
+  animation: spinning 5s linear infinite;
+}
+
+@keyframes spinning {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#rightHeadRobot {
+  animation: slideRight 10s ease-in-out infinite;
+}
+
+#leftHeadRobot {
+  animation: slideLeft 10s ease-in-out infinite;
+}
+
+@keyframes slideRight {
+  100%,
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-55px);
+  }
+}
+
+@keyframes slideLeft {
+  100%,
+  0% {
+    transform: translateX(-50px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+}

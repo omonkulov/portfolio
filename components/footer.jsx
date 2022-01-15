@@ -8,73 +8,107 @@ export const Footer = () => {
           <div className="text-xs uppercase text-gray-500 font-medium">
             Links
           </div>
-          <a className="my-3 block" href="/#">
-            Services <span className="text-teal-600 text-xs p-1"></span>
-          </a>
-          <a className="my-3 block" href="/#">
-            Products <span className="text-teal-600 text-xs p-1"></span>
-          </a>
-          <a className="my-3 block" href="/#">
-            About Us <span className="text-teal-600 text-xs p-1"></span>
-          </a>
-          <a className="my-3 block" href="/#">
-            Pricing <span className="text-teal-600 text-xs p-1"></span>
-          </a>
-          <a className="my-3 block" href="/#">
-            Partners <span className="text-teal-600 text-xs p-1">New</span>
-          </a>
+          <Link href="/#">
+            <a className="my-3 block">
+              Services <span className="text-teal-600 text-xs p-1"></span>
+            </a>
+          </Link>
+          <Link href="/#">
+            <a className="my-3 block">
+              Products <span className="text-teal-600 text-xs p-1"></span>
+            </a>
+          </Link>
+          <Link href="/#">
+            <a className="my-3 block">
+              About Us <span className="text-teal-600 text-xs p-1"></span>
+            </a>
+          </Link>
+          <Link href="/#">
+            <a className="my-3 block">
+              Pricing <span className="text-teal-600 text-xs p-1"></span>
+            </a>
+          </Link>
+          <Link href="/#">
+            <a className="my-3 block">
+              Partners <span className="text-teal-600 text-xs p-1">New</span>
+            </a>
+          </Link>
         </div>
         <div className="p-5 w-48 ">
           <div className="text-xs uppercase text-gray-500 font-medium">
             Social Media
           </div>
-          <a className="my-3 block" href="/#">
-            Sign in <span className="text-teal-600 text-xs p-1"></span>
-          </a>
-          <a className="my-3 block" href="/#">
-            New Account <span className="text-teal-600 text-xs p-1"></span>
-          </a>
-          <a className="my-3 block" href="/#">
-            Demo <span className="text-teal-600 text-xs p-1">New</span>
-          </a>
-          <a className="my-3 block" href="/#">
-            Career
-            <span className="text-teal-600 text-xs p-1">We're hiring</span>
-          </a>
-          <a className="my-3 block" href="/#">
-            Surveys <span className="text-teal-600 text-xs p-1">New</span>
-          </a>
+          <Link href="/#">
+            <a className="my-3 block">
+              Sign in <span className="text-teal-600 text-xs p-1"></span>
+            </a>
+          </Link>
+          <Link href="/#">
+            <a className="my-3 block">
+              New Account <span className="text-teal-600 text-xs p-1"></span>
+            </a>
+          </Link>
+          <Link href="/#">
+            <a className="my-3 block">
+              Demo <span className="text-teal-600 text-xs p-1">New</span>
+            </a>
+          </Link>
+          <Link href="/#">
+            <a className="my-3 block">
+              Career
+              <span className="text-teal-600 text-xs p-1">We're hiring</span>
+            </a>
+          </Link>
+          <Link href="/#">
+            <a className="my-3 block">
+              Surveys <span className="text-teal-600 text-xs p-1">New</span>
+            </a>
+          </Link>
         </div>
         <div className="p-5 w-48 ">
           <div className="text-xs uppercase text-gray-500 font-medium">
             Resources
           </div>
-          <a className="my-3 block" href="/#">
-            Documentation <span className="text-teal-600 text-xs p-1"></span>
-          </a>
-          <a className="my-3 block" href="/#">
-            Tutorials <span className="text-teal-600 text-xs p-1"></span>
-          </a>
-          <a className="my-3 block" href="/#">
-            Support <span className="text-teal-600 text-xs p-1">New</span>
-          </a>
+          <Link href="/#">
+            <a className="my-3 block">
+              Documentation <span className="text-teal-600 text-xs p-1"></span>
+            </a>
+          </Link>
+          <Link href="/#">
+            <a className="my-3 block">
+              Tutorials <span className="text-teal-600 text-xs p-1"></span>
+            </a>
+          </Link>
+          <Link href="/#">
+            <a className="my-3 block">
+              Support <span className="text-teal-600 text-xs p-1">New</span>
+            </a>
+          </Link>
         </div>
         <div className="p-5 w-48 ">
           <div className="text-xs uppercase text-gray-500 font-medium">
             Contact
           </div>
-          <a className="my-3 block" href="/#">
-            Our Products <span className="text-teal-600 text-xs p-1"></span>
-          </a>
-          <a className="my-3 block" href="/#">
-            Great Deals <span className="text-teal-600 text-xs p-1">New</span>
-          </a>
-          <a className="my-3 block" href="/#">
-            Analytics <span className="text-teal-600 text-xs p-1"></span>
-          </a>
-          <a className="my-3 block" href="/#">
-            Mobile <span className="text-teal-600 text-xs p-1"></span>
-          </a>
+          <Link href="/#">
+            <a className="my-3 block">
+              Our Products <span className="text-teal-600 text-xs p-1"></span>
+            </a>
+          </Link>
+          <Link href="/#">
+            <a className="my-3 block">
+              Great Deals <span className="text-teal-600 text-xs p-1">New</span>
+            </a>
+          </Link>
+          <Link href="/#">
+            <a className="my-3 block">
+              Analytics <span className="text-teal-600 text-xs p-1"></span>
+            </a>
+          </Link>
+          <Link href="/#">
+            <a className="my-3 block">
+              Mobile <span className="text-teal-600 text-xs p-1"></span>
+            </a>
+          </Link>
         </div>
       </div>
     </footer>
