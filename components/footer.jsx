@@ -56,7 +56,7 @@ export const Footer = () => {
           <Link href="/#">
             <a className="my-3 block">
               Career
-              <span className="text-teal-600 text-xs p-1">We're hiring</span>
+              <span className="text-teal-600 text-xs p-1">We are hiring</span>
             </a>
           </Link>
           <Link href="/#">

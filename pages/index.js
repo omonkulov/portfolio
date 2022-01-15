@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import { useRef } from "react";
 import AIrobot from "../components/svg/airobot";
 import Curved from "../components/svg/curved";
@@ -82,7 +83,7 @@ export default function Home() {
                 </h3>
               </div>
 
-              <img
+              <Image
                 src="/javalogo.png"
                 className="bg-white w-24 h-24 text-center border rounded px-4 py-2"
               />
@@ -105,7 +106,7 @@ export default function Home() {
                 </h3>
               </div>
 
-              <img
+              <Image
                 src="/springboot.png"
                 className="bg-white w-38 h-12 text-center border rounded px-4 py-2"
               />
@@ -127,7 +128,7 @@ export default function Home() {
                 </h3>
               </div>
 
-              <img
+              <Image
                 src="/javascript.png"
                 className="bg-white w-24 h-24 text-center border border-black rounded-lg"
               />
@@ -149,7 +150,7 @@ export default function Home() {
                 </h3>
               </div>
 
-              <img
+              <Image
                 src="/react.png"
                 className=" w-24 h-24 text-center rounded-lg spinningAnim "
               />
