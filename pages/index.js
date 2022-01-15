@@ -83,10 +83,14 @@ export default function Home() {
                 </h3>
               </div>
 
-              <Image
-                src="/javalogo.png"
-                className="bg-white w-24 h-24 text-center border rounded px-4 py-2"
-              />
+              <div className="bg-white rounded-lg p-2">
+                <Image
+                  width={68}
+                  height={92}
+                  layout="fixed"
+                  src="/javalogo.png"
+                />
+              </div>
             </div>
 
             {/* Spring Boot */}
@@ -106,14 +110,21 @@ export default function Home() {
                 </h3>
               </div>
 
-              <Image
-                src="/springboot.png"
-                className="bg-white w-38 h-12 text-center border rounded px-4 py-2"
-              />
+              <div className="bg-white rounded-lg p-2 text-center">
+                <Image
+                  width={96}
+                  height={29}
+                  layout="fixed"
+                  src="/springboot.png"
+                />
+              </div>
             </div>
 
             {/* Javascript */}
-            <div className="transform transition cursor-default ml-10 relative flex items-center px-4 py-4 bg-yellow-400 text-black rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+            <div
+              style={{ backgroundColor: "#F7E01E" }}
+              className="transform transition cursor-default ml-10 relative flex items-center px-4 py-4 bg-yellow-400 text-black rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0"
+            >
               <div className="w-5 h-5 bg-yellow-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
               <div className="w-10 h-1 bg-yellow-400 absolute -left-10 z-0"></div>
@@ -128,10 +139,14 @@ export default function Home() {
                 </h3>
               </div>
 
-              <Image
-                src="/javascript.png"
-                className="bg-white w-24 h-24 text-center border border-black rounded-lg"
-              />
+              <div className="border-2 border-black rounded-lg p-1">
+                <Image
+                  width={96}
+                  height={96}
+                  layout="fixed"
+                  src="/javascript.png"
+                />
+              </div>
             </div>
 
             {/* React */}
@@ -149,11 +164,15 @@ export default function Home() {
                   also exploring React-Native and Next.js to expand my toolkit.
                 </h3>
               </div>
-
-              <Image
-                src="/react.png"
-                className=" w-24 h-24 text-center rounded-lg spinningAnim "
-              />
+              <div className="">
+                <Image
+                  width={96}
+                  height={96}
+                  layout="fixed"
+                  className="spinningAnim"
+                  src="/react.png"
+                />
+              </div>
             </div>
 
             {/* Future */}
