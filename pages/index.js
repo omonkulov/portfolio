@@ -32,8 +32,8 @@ export default function Home() {
               </h1>
               <hr className="w-16 h-1 bg-green-500 rounded-full mt-6" />
               <p className="text-gray-800 text-base leading-relaxed mt-8 ">
-                I love creating software applications! ReactJs has been my 'Go
-                To' tool for creating mobile, web and even desktop applications.
+                I love creating software applications! ReactJs has been my "Go
+                To" tool for creating mobile, web and even desktop applications.
               </p>
               <button
                 onClick={() =>
