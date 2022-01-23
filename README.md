@@ -1,5 +1,5 @@
 # My Portfolio using Next.js for SEO
-Making my portfolio using Next.js and learning Search Engine Optimization. Additionally learning to animate svgs 
+Making my portfolio using Next.js and learning Search Engine Optimization. Additionally learning to animate svgs. 
 
 <br/>
 
