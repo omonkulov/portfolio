@@ -5,12 +5,12 @@ import AIrobot from "../components/svg/airobot";
 import Curved from "../components/svg/curved";
 import Curved2 from "../components/svg/curved2";
 import Herosvg from "../components/svg/herosvg";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const ref = useRef();
+
   return (
-    <div className={styles.root}>
+    <div>
       <Head>
         <title>Sardorbek Omonkulov Portfolio</title>
         <meta

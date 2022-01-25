@@ -27,10 +27,10 @@
 @keyframes RotateHolding {
   0%,
   100% {
-    transform: rotate(-2deg);
+    transform: rotate(-4deg);
   }
   50% {
-    transform: rotate(2deg);
+    transform: rotate(4deg);
   }
 }
 

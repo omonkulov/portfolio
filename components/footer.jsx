@@ -2,8 +2,8 @@ import Link from "next/link";
 import React from "react";
 export const Footer = () => {
   return (
-    <footer className="bg-gray-100">
-      <div className="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-center">
+    <footer className="bg-gray-100 dark:bg-inherit">
+      <div className="max-w-6xl m-auto text-gray-800 dark:text-gray-300 flex flex-wrap justify-center">
         <div className="p-5 w-48 ">
           <div className="text-xs uppercase text-gray-500 font-medium">
             Links
